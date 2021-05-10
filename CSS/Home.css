@@ -1,0 +1,73 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    max-height: 80px;
+}
+header section{
+    display: flex;
+}
+header section h2{
+    padding-top: 30px;
+}
+header button{
+    max-height: 50px;
+    min-width: 180px;
+}
+
+/* Nav CSS */
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    width: 100px;
+    display: inline-block;
+    padding : 10px;
+    margin: 0px 10px;
+}
+.slider{
+    color: #fff;
+    min-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    position: absolute;
+    background-color: #1976d2;
+    background: linear-gradient(145deg,#0d47a1,#42a5f5);
+    color: #fff;
+    width: 100%;
+    min-height: 480px;
+    height: 80vh;
+    max-height: 560px;
+    box-sizing: border-box;
+    padding: 48px 48px 32px;
+    overflow: hidden;
+    transform: skewY(8deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+.banner{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 80px;
+}
+.banner h2{
+    text-align: right;
+}
