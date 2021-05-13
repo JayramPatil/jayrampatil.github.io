@@ -10,9 +10,12 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+    border-radius: 40px;
+
   }
   .grow_spin:hover {
     color: #070707;
+    border: 3px solid black;
   }
   .grow_spin::after {
     content: "";
@@ -34,23 +37,22 @@
   .grow_spin:hover::after {
     transition: all 0.3s ease-out;
   }
-  button.grow_spin::after {
+  .grow_spin::after {
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     transform: scale(0, 0) rotate(-180deg);
   }
-  button.grow_spin:hover::after {
+  .grow_spin:hover::after {
     transform: scale(1, 1) rotate(0deg);
   }
   .btnBg{
     background-color: white;
     padding: 5px 15px; 
     background-color:#66D3FA ;
-    border-radius: 40px;
+
   }
   .btnBg:hover{
-      background-color: #fff;
-      border: 3px solid black
+
   }
