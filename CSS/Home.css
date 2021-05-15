@@ -1,7 +1,4 @@
 
-.logo{
-    background-image: url("/Images/Banner.png");
-}
 header{
     display: flex;
     justify-content: space-between;
