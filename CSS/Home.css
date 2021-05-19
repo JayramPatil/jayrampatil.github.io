@@ -43,6 +43,10 @@ nav ul li{
     flex-direction: column;
     align-items: center;
 }
+.banner img{
+    filter: drop-shadow(10px 10px 20px rgb(63, 62, 62));
+    height: 350px;
+}
 .hero{
     position: absolute;
     background-color: #1976d2;
@@ -50,7 +54,7 @@ nav ul li{
     color: #fff;
     width: 100%;
     min-height: 480px;
-    height: 80vh;
+    height: 70vh;
     max-height: 560px;
     box-sizing: border-box;
     padding: 48px 48px 32px;
@@ -60,9 +64,11 @@ nav ul li{
     z-index: -1;
 }
 .banner{
+    min-width: 80%;
     min-height: 400px;
+    padding-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .banner h1{
@@ -70,6 +76,7 @@ nav ul li{
 }
 .banner h2{
     text-align: right;
+    margin-bottom: 60px;
 }
 
 /**/

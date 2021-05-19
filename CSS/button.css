@@ -1,11 +1,13 @@
 
   .grow_spin {
     font-size: 26px;
+    width:fit-content;
+    margin-left: 50PX;
     padding: 5px 50px;
     background: #66D3FA;
     font-weight: 700;
-    color: rgb(255, 255, 255);
-    border: none;
+    color: rgb(0, 0, 0);
+    border: 3PX SOLID rgb(0, 0, 0);
     border-radius: 5%;
     position: relative;
     z-index: 1;
@@ -15,7 +17,7 @@
   }
   .grow_spin:hover {
     color: #070707;
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
   }
   .grow_spin::after {
     content: "";
@@ -51,8 +53,5 @@
     background-color: white;
     padding: 5px 15px; 
     background-color:#66D3FA ;
-
-  }
-  .btnBg:hover{
 
   }
