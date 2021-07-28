@@ -10,9 +10,11 @@
   }
   header img {
     max-height: 40px;
+    text-align: center;
   }
   header h2 {
     max-height: 20px;
+    text-align: center;
   }
   header {
     text-align: center;
