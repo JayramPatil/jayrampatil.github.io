@@ -35,6 +35,9 @@
     display: block;
     justify-content: center;
   }
+  .col-xl-12 {
+    margin-top: 35dp;
+  }
   .banner {
     min-width: 80%;
     min-height: 400px;
