@@ -47,14 +47,14 @@
     align-items: center;
   }
   .banner h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .banner h2 {
     text-align: right;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .banner h1 {
-    font-size: 20px;
+    font-size: 10px;
   }
   .banner h2 {
     text-align: right;
