@@ -7,9 +7,7 @@
     max-height: 40px;
   }
   header {
-    text-align: center;
     display: block;
-    justify-content: center;
   }
 
   .banner {
