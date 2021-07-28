@@ -10,23 +10,19 @@
   }
   header img {
     max-height: 40px;
-    text-align: center;
-  }
-  header h2 {
-    max-height: 20px;
   }
   header {
     text-align: center;
     display: block;
     justify-content: center;
   }
-  .container {
+  .container1 {
     width: 100%;
     display: block;
     align-items: center;
     justify-content: center;
   }
-  .container h2 {
+  .container1 h2 {
     text-align: center;
     margin: auto;
     justify-content: center;
@@ -53,13 +49,13 @@
   .grow_spin {
     align-items: center;
     text-align: center;
-    margin-left: 55dp;
+    gravity: center;
   }
   .banner h1 {
     font-size: 30px;
   }
   .banner h2 {
-    text-align: center;
+    text-align: right;
     margin-bottom: 20px;
   }
   .banner h1 {
@@ -152,7 +148,7 @@ nav ul li {
 }
 .banner h2 {
   text-align: right;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /**/
