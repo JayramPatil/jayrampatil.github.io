@@ -15,6 +15,21 @@
     margin: auto;
     justify-content: center;
   }
+  .grow_spin {
+    font-size: 12px;
+    width: fit-content;
+    margin-left: 85px;
+    padding: 5px 50px;
+    background: #66d3fa;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border: 3px SOLID rgb(0, 0, 0);
+    border-radius: 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 40px;
+  }
   .container {
     width: 100%;
     display: block;
