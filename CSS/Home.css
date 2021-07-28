@@ -49,7 +49,7 @@
   .grow_spin {
     align-items: center;
     text-align: center;
-    gravity: center;
+    margin-left: 55dp;
   }
   .banner h1 {
     font-size: 30px;
