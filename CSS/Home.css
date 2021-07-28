@@ -30,8 +30,6 @@
   .slider {
     align-items: center;
     justify-content: center;
-    max-width: 100%;
-    display: inline-block;
   }
   .banner div {
     display: flex;
