@@ -30,12 +30,13 @@
   .slider {
     align-items: center;
     justify-content: center;
-    max-width: 80%;
+    max-width: 100%;
     display: inline-block;
   }
   .banner h1 {
     text-align: center;
     display: block;
+    text-size-adjust: 5sp;
   }
   .banner img {
     visibility: hidden;
