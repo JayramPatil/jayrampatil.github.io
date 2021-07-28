@@ -1,57 +1,72 @@
-
+@media only screen and (max-width: 900px) {
   .grow_spin {
-    font-size: 26px;
-    width:fit-content;
-    margin-left: 50PX;
-    padding: 5px 50px;
-    background: #66D3FA;
+    font-size: 16px;
+    width: fit-content;
+    margin-left: 20px;
+    padding: 5px 20px;
+    background: #66d3fa;
     font-weight: 700;
     color: rgb(0, 0, 0);
-    border: 3PX SOLID rgb(0, 0, 0);
+    border: 3px SOLID rgb(0, 0, 0);
     border-radius: 5%;
-    position: relative;
+
+    align-items: center;
     z-index: 1;
     overflow: hidden;
-    border-radius: 40px;
-
+    border-radius: 20px;
   }
-  .grow_spin:hover {
-    color: #070707;
-    border: 3px solid rgb(0, 0, 0);
-  }
-  .grow_spin::after {
-    content: "";
-    background: white;
-    position: absolute;
-    z-index: -1;
-    padding: 0.85em 0.75em;
-    display: block;
-  }
-  .grow_spin::after {
-    transition: all 0.3s ease;
-  }
-  .grow_spin:hover::after {
-    transition: all 0.3s ease-out;
-  }
-  .grow_spin::after {
-    transition: all 0.3s ease;
-  }
-  .grow_spin:hover::after {
-    transition: all 0.3s ease-out;
-  }
-  .grow_spin::after {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transform: scale(0, 0) rotate(-180deg);
-  }
-  .grow_spin:hover::after {
-    transform: scale(1, 1) rotate(0deg);
-  }
-  .btnBg{
-    background-color: white;
-    padding: 5px 15px; 
-    background-color:#66D3FA ;
-
-  }
+}
+.grow_spin {
+  font-size: 26px;
+  width: fit-content;
+  margin-left: 50px;
+  padding: 5px 50px;
+  background: #66d3fa;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border: 3px SOLID rgb(0, 0, 0);
+  border-radius: 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.grow_spin:hover {
+  color: #070707;
+  border: 3px solid rgb(0, 0, 0);
+}
+.grow_spin::after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+.grow_spin::after {
+  transition: all 0.3s ease;
+}
+.grow_spin:hover::after {
+  transition: all 0.3s ease-out;
+}
+.grow_spin::after {
+  transition: all 0.3s ease;
+}
+.grow_spin:hover::after {
+  transition: all 0.3s ease-out;
+}
+.grow_spin::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+}
+.grow_spin:hover::after {
+  transform: scale(1, 1) rotate(0deg);
+}
+.btnBg {
+  background-color: white;
+  padding: 5px 15px;
+  background-color: #66d3fa;
+}

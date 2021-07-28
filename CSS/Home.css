@@ -31,16 +31,26 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    overflow: hidden;
   }
-  .banner {
-    display: flex;
-  }
+
   .banner div {
-    display: flex;
+    display: list-item;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner h2 {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
   .banner img {
     visibility: hidden;
+    margin: 0px;
   }
 }
 header {
