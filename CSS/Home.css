@@ -25,6 +25,7 @@
   .container h2 {
     text-align: center;
     margin: auto;
+    display: flex;
     justify-content: center;
   }
   .slider {
