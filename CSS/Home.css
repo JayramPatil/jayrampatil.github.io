@@ -3,25 +3,33 @@
   margin: 0;
 }
 @media only screen and (max-width: 900px) {
+  header {
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
   header img {
     max-height: 40px;
   }
   header {
+    text-align: center;
     display: block;
+    justify-content: center;
   }
-
+  .container {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
   .banner {
     align-items: center;
     justify-content: center;
     display: block;
   }
-  .banner img {
-    visibility: hidden;
-  }
-  .banner h1,
-  h2 {
+  .banner h1 {
     text-align: center;
-    width: 70%;
+    display: block;
   }
 }
 header {
