@@ -11,12 +11,7 @@
     display: block;
     justify-content: center;
   }
-  .container {
-    width: 100%;
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
+
   .banner {
     align-items: center;
     justify-content: center;
