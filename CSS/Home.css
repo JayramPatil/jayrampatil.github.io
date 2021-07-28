@@ -33,10 +33,11 @@
     max-width: 100%;
     display: inline-block;
   }
-  .banner h1 {
+  .banner div {
+    display: flex;
     text-align: center;
-    display: block;
-    text-size-adjust: 5sp;
+    align-items: center;
+    justify-content: center;
   }
   .banner img {
     visibility: hidden;
