@@ -3,17 +3,16 @@
   margin: 0;
 }
 @media only screen and (max-width: 600px) {
-  header {
-    align-items: center;
-    width: 100%;
-    margin: auto;
-  }
   header img {
     max-height: 40px;
   }
   header {
     text-align: center;
     display: block;
+    align-items: center;
+    width: 100%;
+    display: block;
+    margin: auto;
     justify-content: center;
   }
   .container {
