@@ -11,18 +11,21 @@
   header img {
     max-height: 40px;
   }
+  header h2 {
+    max-height: 20px;
+  }
   header {
     text-align: center;
     display: block;
     justify-content: center;
   }
-  .container1 {
+  .container {
     width: 100%;
     display: block;
     align-items: center;
     justify-content: center;
   }
-  .container1 h2 {
+  .container h2 {
     text-align: center;
     margin: auto;
     justify-content: center;
