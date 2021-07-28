@@ -41,14 +41,6 @@
     display: block;
     justify-content: center;
   }
-  .banner {
-    min-width: 80%;
-    min-height: 400px;
-    padding-top: 30px;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-  }
   .banner h1 {
     font-size: 30px;
   }
