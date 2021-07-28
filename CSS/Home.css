@@ -16,13 +16,13 @@
     display: block;
     justify-content: center;
   }
-  .container {
+  .container1 {
     width: 100%;
     display: block;
     align-items: center;
     justify-content: center;
   }
-  .container h2 {
+  .container1 h2 {
     text-align: center;
     margin: auto;
     justify-content: center;
