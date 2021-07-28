@@ -50,22 +50,23 @@
     align-items: center;
   }
   .banner h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .banner h2 {
-    text-align: right;
-    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 30px;
   }
   .banner h1 {
     font-size: 20px;
   }
   .banner h2 {
-    text-align: right;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   .banner img {
     visibility: hidden;
+    display: none;
   }
 }
 header {
