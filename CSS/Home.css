@@ -30,7 +30,8 @@
   .slider {
     align-items: center;
     justify-content: center;
-    max-width: 100%;
+    max-width: 80%;
+    display: inline-block;
   }
   .banner h1 {
     text-align: center;
