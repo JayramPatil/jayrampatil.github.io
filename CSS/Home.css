@@ -45,7 +45,7 @@
     min-width: 80%;
     min-height: 400px;
     padding-top: 30px;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
   }
