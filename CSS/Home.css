@@ -38,7 +38,7 @@
     position: relative;
     text-align: center;
     align-items: center;
-    display: block;
+    display: inline-block;
     justify-content: center;
   }
   .banner h1 {
