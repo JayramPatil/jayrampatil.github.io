@@ -25,22 +25,19 @@
   .container h2 {
     text-align: center;
     margin: auto;
-    display: flex;
     justify-content: center;
   }
   .slider {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    display: inline-block;
   }
   .banner div {
-    display: inline-block;
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-  }
-  .banner h1 {
-    font-size: 12rem;
   }
   .banner img {
     visibility: hidden;
