@@ -46,6 +46,11 @@
     justify-content: space-between;
     align-items: center;
   }
+  .grow_spin {
+    align-items: center;
+    text-align: center;
+    gravity: center;
+  }
   .banner h1 {
     font-size: 30px;
   }
