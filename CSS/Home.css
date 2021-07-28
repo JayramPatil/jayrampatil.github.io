@@ -35,13 +35,29 @@
   }
 
   .banner div {
-    display: list-item;
+    position: relative;
     text-align: center;
     align-items: center;
+    display: block;
     justify-content: center;
   }
+  .banner {
+    min-width: 80%;
+    min-height: 400px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .banner h1 {
-    font-size: 40px;
+    font-size: 50px;
+  }
+  .banner h2 {
+    text-align: right;
+    margin-bottom: 50px;
+  }
+  .banner h1 {
+    font-size: 20px;
   }
   .banner h2 {
     text-align: right;
@@ -50,7 +66,6 @@
 
   .banner img {
     visibility: hidden;
-    margin: 0px;
   }
 }
 header {
