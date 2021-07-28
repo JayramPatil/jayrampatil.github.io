@@ -67,7 +67,7 @@
   }
   .banner h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .banner img {
@@ -151,7 +151,7 @@ nav ul li {
   font-size: 30px;
 }
 .banner h2 {
-  text-align: right;
+  text-align: center;
   margin-bottom: 40px;
 }
 
