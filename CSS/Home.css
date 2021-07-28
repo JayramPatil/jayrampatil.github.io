@@ -31,13 +31,13 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    display: inline-block;
+  }
+  .banner {
+    display: flex;
   }
   .banner div {
     display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
   }
   .banner img {
     visibility: hidden;
