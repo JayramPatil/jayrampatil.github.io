@@ -34,10 +34,14 @@
     display: inline-block;
   }
   .banner div {
-    display: flex;
+    display: inline-block;
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+  .banner div h2 {
+    text-align: center;
+    text-size-adjust: 5dp;
   }
   .banner img {
     visibility: hidden;
