@@ -39,9 +39,8 @@
     align-items: center;
     justify-content: center;
   }
-  .banner div h2 {
-    text-align: center;
-    text-size-adjust: 5dp;
+  .banner h1 {
+    font-size: 12rem;
   }
   .banner img {
     visibility: hidden;
