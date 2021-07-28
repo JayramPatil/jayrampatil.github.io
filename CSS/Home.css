@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    display: flex;
+    display: inline-flex;
   }
   .banner h1 {
     text-align: center;
